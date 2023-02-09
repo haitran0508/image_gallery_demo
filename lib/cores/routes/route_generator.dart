@@ -7,7 +7,7 @@ import 'route_names.dart';
 class RouteGenerator {
   static Route generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case RouteNames.signIn:
+      case RouteNames.authen:
         return MaterialPageRoute(
             builder: (context) => const AuthenticationScreen());
       case RouteNames.gallery:
